@@ -57,8 +57,8 @@ def sifre_coz(sifreli_dize):
     return " ".join(cozulmus_kelimeler)
 
 # --- WEB ARAYÜZÜ (TASARIM) ---
-st.title("🔐 Kare Şifreleme Uygulaması")
-st.markdown("Cümlelerinizi girin, sistem harflerin karelerini alarak şifrelesin! *(Örn: Merhaba Dünya)*")
+st.title("🔐 KAREKOD Şifreleme ve Şifre Çözme Uygulaması")
+st.markdown("Metninizi girin, sistem harflerin karelerini alarak şifrelesin! *(Örn: Merhaba Dünya)*")
 
 islem = st.radio("İşlem Seçin:", ["Şifrele", "Şifre Çöz"])
 metin_girisi = st.text_input("Buraya yazın:")
